@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SECURE-it | Your UPI Guardian</title>
+  <meta name="description"
+    content="SECURE-it: The first intelligent shield to intercept digital fraud before it reaches your wallet.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- Splash Screen -->
+  <div id="splash-screen">
+    <div class="splash-logo">SECURE-it</div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">SECURE-it</a>
+      <div class="nav-links">
+        <a href="#hero" class="active">Product</a>
+        <a href="#process">Security</a>
+        <a href="#cta">Pricing</a>
+        <a href="#infrastructure">About</a>
+      </div>
+      <button class="btn btn-primary btn-nav">Download Now</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="hero-bg-shade"></div>
+    <div class="container hero-container">
+      <div class="hero-content reveal-up">
+        <div class="hero-tagline">SECURING 500M+ DIGITAL WALLETS</div>
+        <h1 class="hero-title">
+          Your UPI Guardian.<br>
+          <span class="secure-it-underlined">SECURE-it</span>
+        </h1>
+        <p class="hero-desc">
+          <span class="orange-curved-box">Smart UPI Security</span> - The intelligent shield for your digital wallet.
+        </p>
+        <div class="hero-actions">
+          <button class="btn btn-primary btn-large">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download App
+          </button>
+          <button class="btn btn-secondary btn-large">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polygon points="10 8 16 12 10 16 10 8"></polygon>
+            </svg>
+            how it works
+          </button>
+        </div>
+        
+        <div class="trust-row reveal-up" style="animation-delay: 0.3s;">
+          <div class="trust-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-green)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            <span>Bank Grade Security</span>
+          </div>
+          <div class="trust-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-green)" stroke-width="2"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>
+            <span>Zero Data Logs</span>
+          </div>
+          <div class="trust-item">
+             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-green)" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+             <span>&lt;10ms Latency</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal-scale">
+        <div class="phone-mockup">
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen bg-animation">
+              <div class="radar-rings">
+                <div class="ring r1"></div>
+                <div class="ring r2"></div>
+                <div class="ring r3"></div>
+              </div>
+
+              <div class="alert-box float-animation">
+                <div class="alert-icon-container">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z">
+                    </path>
+                    <line x1="12" y1="9" x2="12" y2="13"></line>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                </div>
+                <h3 class="alert-title">High Risk Detected</h3>
+                <p class="alert-desc">Unverified payment link identified as a known phishing threat.</p>
+
+                <div class="alert-action">
+                  <div class="action-details">
+                    <span class="action-label">PAYMENT REQUIRED</span>
+                    <span class="action-amount">₹49,999.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="phone-glow"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Stats Section -->
+  <section class="stats-section">
+    <div class="container stats-container reveal-up">
+      <div class="stat-item">
+        <h2 class="stat-value">₹2000 Cr+</h2>
+        <p class="stat-desc">Lost annually to UPI fraud in India. We're here to stop the drain.</p>
+      </div>
+      <div class="stat-item">
+        <h2 class="stat-value">1 in 4</h2>
+        <p class="stat-desc">Indians face digital payment fraud every year. Don't be a statistic.</p>
+      </div>
+      <div class="stat-item">
+        <h2 class="stat-value">500M+</h2>
+        <p class="stat-desc">UPI users nationwide require a dedicated security layer. Secure your future.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Security Pillars Section -->
+  <section class="pillars-section">
+    <div class="container">
+      <div class="text-center reveal-up">
+        <div class="section-badge">WHY SECURE-IT</div>
+      </div>
+      <h2 class="section-title text-center reveal-up">Built on 4 Core Pillars</h2>
+      
+      <div class="pillars-grid stagger-reveal">
+        <div class="pillar-card">
+          <div class="pillar-icon float-icon" style="animation-delay: 0s;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-green)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3 class="pillar-title">Privacy First</h3>
+          <p class="pillar-desc">We never read your private chats or access your bank balances. All analysis happens locally.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon float-icon" style="animation-delay: 0.2s;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-green)" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+          </div>
+          <h3 class="pillar-title">Ultra Lightweight</h3>
+          <p class="pillar-desc">Designed with a minimal footprint to ensure zero impact on your battery life and performance.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon float-icon" style="animation-delay: 0.4s;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-green)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          </div>
+          <h3 class="pillar-title">Universal Support</h3>
+          <p class="pillar-desc">Works seamlessly across all major UPI applications currently operating within India.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon float-icon" style="animation-delay: 0.6s;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-green)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <h3 class="pillar-title">Instant Defense</h3>
+          <p class="pillar-desc">Detects and intercepts potential threats in less than 10 milliseconds before they reach you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <div class="section-badge reveal-up">THE PROCESS</div>
+      <h2 class="section-title reveal-up">5 Steps to Total Safety</h2>
+
+      <div class="process-grid stagger-reveal">
+        <!-- Step 1 -->
+        <div class="process-card">
+          <div class="card-bg-num">1</div>
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#aacc99" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              <line x1="9" y1="10" x2="15" y2="10"></line>
+              <line x1="9" y1="14" x2="11" y2="14"></line>
+            </svg>
+          </div>
+          <h3 class="card-title">Message</h3>
+          <p class="card-desc">Detects incoming SMS or payment requests instantly.</p>
+        </div>
+        <!-- Step 2 -->
+        <div class="process-card">
+          <div class="card-bg-num">2</div>
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#aacc99" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 3h6v6H3z"></path>
+              <path d="M15 3h6v6h-6z"></path>
+              <path d="M15 15h6v6h-6z"></path>
+              <path d="M3 15h6v6H3z"></path>
+              <line x1="9" y1="12" x2="15" y2="12"></line>
+              <line x1="12" y1="9" x2="12" y2="15"></line>
+            </svg>
+          </div>
+          <h3 class="card-title">Scan</h3>
+          <p class="card-desc">Deep-scans links and IDs against global blacklists.</p>
+        </div>
+        <!-- Step 3 -->
+        <div class="process-card">
+          <div class="card-bg-num">3</div>
+          <div class="card-icon" style="position: relative;">
+            <svg style="position: absolute;" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#55b598"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v20"></path>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+            <span class="ai-badge">AI</span>
+          </div>
+          <h3 class="card-title">AI Risk</h3>
+          <p class="card-desc">Evaluates from 100+ behavior threat variables.</p>
+        </div>
+        <!-- Step 4 -->
+        <div class="process-card">
+          <div class="card-bg-num">4</div>
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#aacc99" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+              <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+            </svg>
+          </div>
+          <h3 class="card-title">Warning</h3>
+          <p class="card-desc">Contextual overlay alerts you before you tap.</p>
+        </div>
+        <!-- Step 5 -->
+        <div class="process-card">
+          <div class="card-bg-num">5</div>
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#aacc99" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line>
+            </svg>
+          </div>
+          <h3 class="card-title">Block</h3>
+          <p class="card-desc">Prevents transaction completion to rogue apps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Infrastructure Section -->
+  <section class="infrastructure-section" id="infrastructure">
+    <div class="container infra-container">
+      <div class="infra-visual reveal-right">
+        <div class="infra-image-wrapper">
+          <img src="/infra-servers.png" alt="Server Infrastructure" class="infra-img" id="infra-img"
+            onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\'><rect width=\'100%\' height=\'100%\' fill=\'%231a1b1d\'/></svg>'">
+          <div class="infra-overlay"></div>
+        </div>
+      </div>
+      <div class="infra-content reveal-left">
+        <div class="section-badge">CORE INFRASTRUCTURE</div>
+        <h2 class="section-title">The Tech Behind The Trust</h2>
+
+        <ul class="feature-list stagger-reveal">
+          <li class="feature-item">
+            <div class="feature-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#aacc99" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4 class="feature-title">Overlay Protection</h4>
+              <p class="feature-desc">Our proprietary UI Layer Intuition provides immediate visual feedback directly
+                over your banking apps, ensuring you never miss a threat signal.</p>
+            </div>
+          </li>
+          <li class="feature-item">
+            <div class="feature-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#aacc99" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4 class="feature-title">AI Risk Engine</h4>
+              <p class="feature-desc">Leveraging federated learning, our engine identifies zero-day phishing patterns
+                without ever accessing your private financial data.</p>
+            </div>
+          </li>
+          <li class="feature-item">
+            <div class="feature-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#aacc99" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4 class="feature-title">URL Scanner</h4>
+              <p class="feature-desc">A military-grade sandbox environment that executes and analyzes suspicious links
+                in milliseconds before they reach your browser.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compatibility Row -->
+  <section class="compatibility-section reveal-up">
+    <div class="container">
+      <div class="compatibility-grid">
+        <div class="comp-item"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Google_Pay_Logo.svg" alt="Google Pay"></div>
+        <div class="comp-item"><img src="https://upload.wikimedia.org/wikipedia/commons/7/71/PhonePe_Logo.svg" alt="PhonePe"></div>
+        <div class="comp-item"><img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Paytm_Logo_%28standalone%29.svg" alt="Paytm"></div>
+        <div class="comp-item"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/BHIM_Logo.png" alt="BHIM"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="text-center reveal-up">
+        <div class="section-badge">WALL OF TRUST</div>
+      </div>
+      <h2 class="section-title text-center reveal-up">Trusted by Digital Citizens</h2>
+
+      <div class="testimonials-grid stagger-reveal">
+        <div class="testimonial-card">
+          <svg class="quote-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2">
+            <path
+              d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z">
+            </path>
+            <path
+              d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z">
+            </path>
+          </svg>
+          <p class="testimonial-quote">"As a retired educator, I was always nervous about using UPI for my monthly
+            bills. SECURE-it gives me a sense of confidence I didn't have before. It's like having a security guard
+            standing right next to me."</p>
+          <div class="testimonial-author">
+            <img src="https://ui-avatars.com/api/?name=Prof.+Ramesh+Kumar&background=333&color=fff"
+              alt="Prof. Ramesh Kumar" class="author-img">
+            <div class="author-info">
+              <div class="author-name">Prof. Ramesh Kumar</div>
+              <div class="author-role">RETIRED EDUCATOR</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <svg class="quote-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2">
+            <path
+              d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z">
+            </path>
+            <path
+              d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z">
+            </path>
+          </svg>
+          <p class="testimonial-quote">"In the creative industry, everything moves fast. I process dozens of small
+            payments daily. Having SECURE-it scan my links in the background is a lifesaver. It caught a spoofed invoice
+            last week that saved me ₹45,000."</p>
+          <div class="testimonial-author">
+            <img src="https://ui-avatars.com/api/?name=Ananya+S.&background=333&color=fff" alt="Ananya S."
+              class="author-img">
+            <div class="author-info">
+              <div class="author-name">Ananya S.</div>
+              <div class="author-role">CREATIVE PROFESSIONAL</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section" id="cta">
+    <div class="container reveal-up">
+      <div class="cta-card glow-bg">
+        <h2 class="cta-title">Ready to secure your<br>digital future?</h2>
+        <p class="cta-desc">Join 2 million users who have already shielded their wallets with India's most advanced UPI
+          guardian.</p>
+        <div class="cta-actions">
+          <button class="store-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M16 3.5c-.83 1.01-2.05 1.6-3.3 1.5-.2-.97.23-2.08.97-2.88.85-1.05 2.1-1.63 3.32-1.54.2 1 .1 1.96-.99 2.92zM12.98 12.02c-.06-3.13 2.51-4.66 2.62-4.72-1.46-2.13-3.7-2.42-4.52-2.46-1.92-.19-3.76 1.14-4.74 1.14-.98 0-2.52-1.12-4.1-1.09-2.05.03-3.95 1.19-5 2.99-2.14 3.73-.55 9.25 1.54 12.27 1.02 1.48 2.2 3.12 3.82 3.07 1.54-.05 2.15-.98 4.02-.98 1.86 0 2.4.98 4.03.95 1.66-.03 2.66-1.5 3.65-2.95 1.14-1.66 1.62-3.26 1.64-3.34-.04-.01-3.14-1.21-3.1-4.88z" />
+            </svg>
+            <div class="store-text">
+              <span class="store-sub">Download on the</span>
+              <span class="store-main">App Store</span>
+            </div>
+          </button>
+          <button class="store-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3 20.5v-17c0-.5.6-1 1.1-.6l15.5 8.5c.5.3.5 1 0 1.2l-15.5 8.5c-.5.3-1.1-.1-1.1-.6z"></path>
+            </svg>
+            <div class="store-text">
+              <span class="store-sub">GET IT ON</span>
+              <span class="store-main">Google Play</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-logo">SECURE-it</div>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">CERT Compliance</a>
+        <a href="#">Anti-Toxicity</a>
+        <a href="#">Contact Support</a>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-desc">Advanced mobile Security. Highly reliable<br>protection for the modern digital life.</p>
+        <p class="footer-copy">&copy; 2024 Innovise Advance Security, All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
