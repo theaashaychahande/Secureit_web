@@ -18,24 +18,7 @@ This project uses a clean and professional Vite architecture for an optimized de
 - `src/`: Application source code (`main.js`, `style.css`)
 - `public/`: Static assets (`infra-servers.png`)
 
-##  Setup and Development
 
-1. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
-
-2. **Start the Development Server**:
-   ```bash
-   npm run dev
-   ```
-
-3. **Build for Production**:
-   ```bash
-   npm run build
-   ```
-
-## 🛠️ Tech Stack
 
 - HTML5 / CSS3 / Vanilla JavaScript
 - [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
