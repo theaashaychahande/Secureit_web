@@ -1,4 +1,4 @@
-# SECURE-it | Your UPI Guardian
+# SECURE-it 
 
 SECURE-it is an advanced digital shield designed to intercept digital fraud before it reaches your wallet. Built with privacy and speed in mind, it provides ultra-lightweight overlay protection and AI risk detection for UPI transactions.
 
